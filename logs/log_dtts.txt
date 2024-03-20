@@ -1,0 +1,15 @@
+Estimated dtts for label ^GSPC
+Estimated dtts for label ^FCHI
+
+Estimated dtts for label ^IXIC
+Estimated dtts for label IMOEX.ME
+Estimated dtts for label ^N225
+Estimated dtts for label ^BVSP
+Estimated dtts for label GBPUSD=X
+Estimated dtts for label EURUSD=X
+Estimated dtts for label JPY=X
+Estimated dtts for label COP=X
+Estimated dtts for label TEMPAVGBOG
+Estimated dtts for label PRCPBOG
+Estimated dtts for label COVIDWLDC
+Estimated dtts for label COVIDWLDD

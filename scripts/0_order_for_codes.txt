@@ -1,0 +1,11 @@
+----- For fractional Brownian motion (fBm) -----
+1. estimate_hurst_tts_relation_fbm
+2. plot_hurst_tts_relation
+----- For financial time series (fts) -----
+1. process_data_fts
+2. estimate_hurst_exponent_mfdfa_fts
+3. estimate_tfs_fts
+4. estimate_diffusive_algorithm_fts
+5. estimate_tts_fts
+6. prepare_exponents_data
+7. compare_exponents

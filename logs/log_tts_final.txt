@@ -1,0 +1,90 @@
+TTS adjust for label ^GSPC and sub-series absolute log-return
+TTS adjust for label ^GSPC and sub-series original
+TTS adjust for label ^GSPC and sub-series volatility log-return
+TTS adjust for label ^GDAXI and sub-series absolute log-return
+TTS adjust for label ^GDAXI and sub-series original
+TTS adjust for label ^GDAXI and sub-series volatility log-return
+TTS adjust for label ^FCHI and sub-series absolute log-return
+TTS adjust for label ^FCHI and sub-series original
+TTS adjust for label ^FCHI and sub-series volatility log-return
+TTS adjust for label ^IXIC and sub-series absolute log-return
+TTS adjust for label ^IXIC and sub-series original
+TTS adjust for label ^IXIC and sub-series volatility log-return
+TTS adjust for label IMOEX.ME and sub-series absolute log-return
+TTS adjust for label IMOEX.ME and sub-series original
+TTS adjust for label IMOEX.ME and sub-series volatility log-return
+TTS adjust for label ^N225 and sub-series absolute log-return
+TTS adjust for label ^N225 and sub-series original
+TTS adjust for label ^N225 and sub-series volatility log-return
+TTS adjust for label ^BVSP and sub-series absolute log-return
+TTS adjust for label ^BVSP and sub-series original
+TTS adjust for label ^BVSP and sub-series volatility log-return
+TTS adjust for label GBPUSD=X and sub-series absolute log-return
+TTS adjust for label GBPUSD=X and sub-series original
+TTS adjust for label GBPUSD=X and sub-series volatility log-return
+TTS adjust for label EURUSD=X and sub-series absolute log-return
+TTS adjust for label EURUSD=X and sub-series original
+TTS adjust for label EURUSD=X and sub-series volatility log-return
+TTS adjust for label JPY=X and sub-series absolute log-return
+TTS adjust for label JPY=X and sub-series original
+TTS adjust for label JPY=X and sub-series volatility log-return
+TTS adjust for label COP=X and sub-series absolute log-return
+TTS adjust for label COP=X and sub-series original
+TTS adjust for label COP=X and sub-series volatility log-return
+TTS adjust for label TEMPAVGBOG and sub-series absolute log-return
+TTS adjust for label TEMPAVGBOG and sub-series original
+TTS adjust for label TEMPAVGBOG and sub-series volatility log-return
+TTS adjust for label PRCPBOG and sub-series absolute log-return
+TTS adjust for label PRCPBOG and sub-series original
+TTS adjust for label PRCPBOG and sub-series volatility log-return
+TTS adjust for label COVIDWLDC and sub-series absolute log-return
+TTS adjust for label COVIDWLDC and sub-series original
+TTS adjust for label COVIDWLDC and sub-series volatility log-return
+TTS adjust for label COVIDWLDD and sub-series absolute log-return
+TTS adjust for label COVIDWLDD and sub-series original
+TTS adjust for label COVIDWLDD and sub-series volatility log-return
+TTS adjust for label ^GSPC and sub-series absolute log-return
+TTS adjust for label ^GSPC and sub-series original
+TTS adjust for label ^GSPC and sub-series volatility log-return
+TTS adjust for label ^GDAXI and sub-series absolute log-return
+TTS adjust for label ^GDAXI and sub-series original
+TTS adjust for label ^GDAXI and sub-series volatility log-return
+TTS adjust for label ^FCHI and sub-series absolute log-return
+TTS adjust for label ^FCHI and sub-series original
+TTS adjust for label ^FCHI and sub-series volatility log-return
+TTS adjust for label ^IXIC and sub-series absolute log-return
+TTS adjust for label ^IXIC and sub-series original
+TTS adjust for label ^IXIC and sub-series volatility log-return
+TTS adjust for label IMOEX.ME and sub-series absolute log-return
+TTS adjust for label IMOEX.ME and sub-series original
+TTS adjust for label IMOEX.ME and sub-series volatility log-return
+TTS adjust for label ^N225 and sub-series absolute log-return
+TTS adjust for label ^N225 and sub-series original
+TTS adjust for label ^N225 and sub-series volatility log-return
+TTS adjust for label ^BVSP and sub-series absolute log-return
+TTS adjust for label ^BVSP and sub-series original
+TTS adjust for label ^BVSP and sub-series volatility log-return
+TTS adjust for label GBPUSD=X and sub-series absolute log-return
+TTS adjust for label GBPUSD=X and sub-series original
+TTS adjust for label GBPUSD=X and sub-series volatility log-return
+TTS adjust for label EURUSD=X and sub-series absolute log-return
+TTS adjust for label EURUSD=X and sub-series original
+TTS adjust for label EURUSD=X and sub-series volatility log-return
+TTS adjust for label JPY=X and sub-series absolute log-return
+TTS adjust for label JPY=X and sub-series original
+TTS adjust for label JPY=X and sub-series volatility log-return
+TTS adjust for label COP=X and sub-series absolute log-return
+TTS adjust for label COP=X and sub-series original
+TTS adjust for label COP=X and sub-series volatility log-return
+TTS adjust for label TEMPAVGBOG and sub-series absolute log-return
+TTS adjust for label TEMPAVGBOG and sub-series original
+TTS adjust for label TEMPAVGBOG and sub-series volatility log-return
+TTS adjust for label PRCPBOG and sub-series absolute log-return
+TTS adjust for label PRCPBOG and sub-series original
+TTS adjust for label PRCPBOG and sub-series volatility log-return
+TTS adjust for label COVIDWLDC and sub-series absolute log-return
+TTS adjust for label COVIDWLDC and sub-series original
+TTS adjust for label COVIDWLDC and sub-series volatility log-return
+TTS adjust for label COVIDWLDD and sub-series absolute log-return
+TTS adjust for label COVIDWLDD and sub-series original
+TTS adjust for label COVIDWLDD and sub-series volatility log-return
