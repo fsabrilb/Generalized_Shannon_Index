@@ -48,7 +48,7 @@ def estimate_diffusive_algorithm(
         for i in s_vector:
             # Construction of diffusive path as a realization of accumulated value over the time ----
             df_aux = df_data[df_data["step"] >= i]
-            df_dtts = df_dtts.append(
+            df_dtts = df_dtts._append(
                 pd.DataFrame(
                     {
                         "time": df_aux["step"].values,

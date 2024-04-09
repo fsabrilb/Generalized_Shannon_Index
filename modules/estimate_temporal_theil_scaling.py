@@ -92,7 +92,7 @@ def estimate_tts_parameters_local(
             r2 = estimate_coefficient_of_determination(y = df_aux["shannon_index"].values, y_fitted = estimated)
 
             # Final dataframe with regressions ----
-            df_parameters = df_parameters.append(
+            df_parameters = df_parameters._append(
                 pd.DataFrame(
                     {
                         "symbol" : [symbol],
