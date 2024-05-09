@@ -184,7 +184,7 @@ To show the relationship between the temporal Theil scaling exponent $\alpha_{TT
 
 ## Code/Software
 
-All the information shown in this data repository is organized in the different folders mentioned and with all the files shown in the following public Github repository [1](#references).
+All the information shown in this data repository is organized in the different folders mentioned and with all the files shown in the following public Github repository [[1]](#references).
 
 To run the different notebooks in the ```scripts``` folder, it is recommended to use version 2.1.4 of ```pandas``` and version 1.24.4 of ```numpy```. Also, it is recommended to install other Python libraries such as ```yfinance```, ```MFDFA``` and ```tqdm```.
 
