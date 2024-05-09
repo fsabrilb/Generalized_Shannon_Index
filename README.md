@@ -23,7 +23,7 @@ The structure of the data repository consists of:
 
     *   **estimate_theil_index.py:** Module designed to calculate the Theil index ($T$), or the generalized entropy index of a set of $N$ data. From these, the Shannon index ($S$) is estimated as the Theil index normalized to its maximum value, that is, $S=\log{(N)}-T$. It is important to mention that Theil index is an inequality measure devised by economist Henri Theil and formulated in terms of an entropy index.
 
-    *   **get_financial_time_series.py:** Module designed to process financial time series extracted from YahooFinance through the ´´´yfinance´´´ Python library and its ticker. Once the YahooFinance data is downloaded with this module, other functions estimate the returns with the daily closing prices, the logarithmic returns (*log-returns*), absolute value of the log-returns, and volatility of the log-returns. An example of the metadata output after this processing is mentioned in the following section (see [Metadata of the data sets](#metadata-of-the-data-sets)).
+    *   **get_financial_time_series.py:** Module designed to process financial time series extracted from YahooFinance through the ```yfinance``` Python library and its ticker. Once the YahooFinance data is downloaded with this module, other functions estimate the returns with the daily closing prices, the logarithmic returns (*log-returns*), absolute value of the log-returns, and volatility of the log-returns. An example of the metadata output after this processing is mentioned in the following section (see [Metadata of the data sets](#metadata-of-the-data-sets)).
 
     *   **plot_hurst_tfs.py:** Module designed to graph the final results of the study emphasizing the relationship between the generalized Hurst exponent $H(q)$ as a function of the temporal Theil index scaling exponent $\alpha_{TTS}(t)$. Additionally, other graphs are shown such as the evolution of the generalized Hurst exponent and the temporal Theil scaling exponent over time.
 
@@ -35,7 +35,7 @@ The structure of the data repository consists of:
 
 ## Metadata of the data sets
 
-The metadata of the different data sets that appear in this repository are organized by the ´´´.csv´´´ or ´´´.xlsx´´´ files placed in the input_files and output_files folders, namely:
+The metadata of the different data sets that appear in this repository are organized by the ```.csv``` or ```.xlsx``` files placed in the input_files and output_files folders, namely:
 
 |       **Folder**      |                  **Data set**                 |   **Dataset type**   |
 |:---------------------:|:---------------------------------------------:|:--------------------:|
@@ -53,9 +53,9 @@ The metadata of the different data sets that appear in this repository are organ
 |      output_files     | df_hurst_tts_optimal_stock_index_20230608.csv | df_hurst_tts_optimal |
 | output_files/20230701 |           df_hurst_tts_20230701.xlsx          |   df_hurst_tts_fbm   |
 
-The ´´´Dataset type´´´ column indicates the type of table that is available since some of these schemes are repeated between the different data sets considered (stock indices and currencies). Thus, the types of data sets available are:
+The ```Dataset type``` column indicates the type of table that is available since some of these schemes are repeated between the different data sets considered (stock indices and currencies). Thus, the types of data sets available are:
 
-*   ´´´df_fts´´´: Corresponds to the data set of multiple financial time series (*fts*) data processed and hosted as processed data.
+*   ```df_fts```: Corresponds to the data set of multiple financial time series (*fts*) data processed and hosted as processed data.
 
     | **Variable** | **Type** | **Allowed values** | **Description** |
     |:---:|:---:|:---:|:---:|
@@ -83,7 +83,7 @@ The ´´´Dataset type´´´ column indicates the type of table that is availabl
     | cumvariance_absolute_log_return | float | Positive numeric values | Cumulative variance of the absolute value of the logarithmic returns since the initial date |
     | cumvariance_log_volatility | float | Positive numeric values | Cumulative variance of the volatilities of the logarithmic returns since the initial date |
 
-*   ´´´df_hurst´´´: Corresponds to the data set obtained after the estimation of the generalized Hurst exponent $H(q)$ using the Multifractal Detrended Fluctuation Analysis (*MF-DFA*) method for different orders in the moments ($q$).
+*   ```df_hurst```: Corresponds to the data set obtained after the estimation of the generalized Hurst exponent $H(q)$ using the Multifractal Detrended Fluctuation Analysis (*MF-DFA*) method for different orders in the moments ($q$).
 
     | **Variable** | **Type** | **Allowed values** | **Description** |
     |:---:|:---:|:---:|:---:|
@@ -94,7 +94,7 @@ The ´´´Dataset type´´´ column indicates the type of table that is availabl
     | step | int | Positive integer values | Number of days since the minimum or initial date that data is downloaded from YahooFinance |
     | time_series | string | Alphabetic character string | Type of time series analyzed (log-return, absolute log-return or log-return volatility) |
 
-*   ´´´df_tfs´´´ Corresponds to the data set obtained after adjusting the temporal fluctuation scaling (*TFS*) as a power law between the mean and the accumulated variance in a time series.
+*   ```df_tfs``` Corresponds to the data set obtained after adjusting the temporal fluctuation scaling (*TFS*) as a power law between the mean and the accumulated variance in a time series.
 
     | **Variable** | **Type** | **Allowed values** | **Description** |
     |:---:|:---:|:---:|:---:|
@@ -109,7 +109,7 @@ The ´´´Dataset type´´´ column indicates the type of table that is availabl
     | average_error_tfs | float | Positive numeric values | Mean average error of the temporal fluctuation scaling fitting as power-law relation |
     | rsquared_tfs | float | Positive numeric values | Coefficient of determination of the temporal fluctuation scaling fitting as power-law relation |
 
-*   ´´´df_tts´´´ Corresponds to the data set obtained after adjusting the temporal Theil index scaling (*TTS*) as a power law between the Shannon index normalized to its maximum value and the mean of diffusive trajectory normalized to its maximum value.
+*   ```df_tts``` Corresponds to the data set obtained after adjusting the temporal Theil index scaling (*TTS*) as a power law between the Shannon index normalized to its maximum value and the mean of diffusive trajectory normalized to its maximum value.
 
     | **Variable** | **Type** | **Allowed values** | **Description** |
     |:---:|:---:|:---:|:---:|
@@ -124,7 +124,7 @@ The ´´´Dataset type´´´ column indicates the type of table that is availabl
     | average_error_tts | float | Positive numeric values | Mean average error of the temporal Theil index scaling fitting as power-law relation |
     | rsquared_tts | float | Positive numeric values | Coefficient of determination of the temporal Theil index scaling fitting as power-law relation |
 
-*   ´´´df_hurst_tts´´´ Corresponds to the data set obtained after adjusting the generalized Hurst exponent $H(q)$ based on the temporal Theil scaling exponent $\alpha_{TTS}(t)$, as a polynomial relationship (*local approximation of fractional Brownian motion (LA-fBm)*).
+*   ```df_hurst_tts``` Corresponds to the data set obtained after adjusting the generalized Hurst exponent $H(q)$ based on the temporal Theil scaling exponent $\alpha_{TTS}(t)$, as a polynomial relationship (*local approximation of fractional Brownian motion (LA-fBm)*).
 
     | **Variable** | **Type** | **Allowed values** | **Description** |
     |:---:|:---:|:---:|:---:|
@@ -136,7 +136,7 @@ The ´´´Dataset type´´´ column indicates the type of table that is availabl
     | rsquared_tts | float | Positive numeric values | Mean average error of the polynomial fitting between generalized Hurst exponent and the temporal Theil index scaling exponent |
     | average_error_tts | float | Positive numeric values | Coefficient of determination of the polynomial fitting between generalized Hurst exponent and the temporal Theil index scaling exponent |
 
-*   ´´´df_hurst_tts_optimal´´´ Corresponds to the data set obtained after performing multiple adjustments between the generalized Hurst exponent $H(q)$ as a function of the temporal Theil scaling exponent $\alpha_{TTS}(t)$, for different values of moments $q$. Then, by constructing a matrix with the adjustment coefficients, the matrix norm of said matrix and its associated eigenvectors are estimated.
+*   ```df_hurst_tts_optimal``` Corresponds to the data set obtained after performing multiple adjustments between the generalized Hurst exponent $H(q)$ as a function of the temporal Theil scaling exponent $\alpha_{TTS}(t)$, for different values of moments $q$. Then, by constructing a matrix with the adjustment coefficients, the matrix norm of said matrix and its associated eigenvectors are estimated.
 
     | **Variable** | **Type** | **Allowed values** | **Description** |
     |:---:|:---:|:---:|:---:|
@@ -146,7 +146,7 @@ The ´´´Dataset type´´´ column indicates the type of table that is availabl
     | matrix_norm | float | Positive numeric values | Matrix norm of the matrix constructed with the adjustment coefficients after performing multiple regressions between $H(q)$ and $\alpha_{TTS}(t)$ for different values of moments $q$ |
     | eigenvector | float | Numeric values | Eigenvector of the matrix constructed with the adjustment coefficients after performing multiple regressions between $H(q)$ and $\alpha_{TTS}(t)$ for different values of moments $q$ |
 
-*   ´´´df_hurst_tts_fbm´´´ Corresponds to the data set obtained after doing multiple simulations of fractional Brownian motion (*fBm*) and estimating the linear relationship that should exist between the Hurst exponent ($H$) and the temporal Theil index scaling exponent $\alpha_{TTS}(t)$.
+*   ```df_hurst_tts_fbm``` Corresponds to the data set obtained after doing multiple simulations of fractional Brownian motion (*fBm*) and estimating the linear relationship that should exist between the Hurst exponent ($H$) and the temporal Theil index scaling exponent $\alpha_{TTS}(t)$.
 
     | **Variable** | **Type** | **Allowed values** | **Description** |
     |:---:|:---:|:---:|:---:|
@@ -186,7 +186,7 @@ To show the relationship between the temporal Theil scaling exponent $\alpha_{TT
 
 All the information shown in this data repository is organized in the different folders mentioned and with all the files shown in the following public Github repository [1](#references).
 
-To run the different notebooks in the ´´´scripts´´´ folder, it is recommended to use version 2.1.4 of ´´´pandas´´´ and version 1.24.4 of ´´´numpy´´´. Also, it is recommended to install other Python libraries such as ´´´yfinance´´´, ´´´MFDFA´´´ and ´´´tqdm´´´.
+To run the different notebooks in the ```scripts``` folder, it is recommended to use version 2.1.4 of ```pandas``` and version 1.24.4 of ```numpy```. Also, it is recommended to install other Python libraries such as ```yfinance```, ```MFDFA``` and ```tqdm```.
 
 ## References
 
