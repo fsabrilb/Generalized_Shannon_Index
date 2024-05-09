@@ -9,3 +9,7 @@ rsconnect/
 input_files/
 output_files/
 make_file_deployment.sh
+
+# local files
+Metadata.xlsx
+~$Metadata.xlsx
